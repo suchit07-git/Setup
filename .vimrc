@@ -63,9 +63,9 @@ augroup numbertoggle
    autocmd BufLeave,FocusLost,InsertEnter * set nornu
 augroup END
 
-"filetype on
-"filetype plugin on
-"filetype indent on
+filetype on
+filetype plugin on
+filetype indent on
 syntax on
 set softtabstop=2
 " Set shift width to 4 spaces.
