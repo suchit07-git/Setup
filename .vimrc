@@ -35,8 +35,6 @@ au GUIEnter * simalt ~x
 set hls
 set is
 set gfn=FixedSys:h10
-set ts=2 
-set sw=2
 set si
 set clipboard=unnamed
 set noswapfile
