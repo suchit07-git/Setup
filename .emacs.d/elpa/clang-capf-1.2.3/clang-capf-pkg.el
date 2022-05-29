@@ -1,0 +1,2 @@
+;;; Generated package description from clang-capf.el  -*- no-byte-compile: t -*-
+(define-package "clang-capf" "1.2.3" "Completion-at-point backend for c/c++ using clang" '((emacs "24.4")) :commit "147be0e908f09ab2346443d48457f9624a404019" :authors '(("Philip K. <philipk [at] posteo [dot] net>")) :maintainer '("Philip K. <philipk [at] posteo [dot] net>") :keywords '("c" "abbrev" "convenience") :url "https://git.sr.ht/~pkal/clang-capf")

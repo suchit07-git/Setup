@@ -1,0 +1,51 @@
+g++ demo.cpp
+./a.exe
+g++ demo.cpp
+./a.out
+g++ demo.cpp
+g++ demo.cpp
+./a.exe
+ls
+ls -a
+vim basic.c
+g++ C.cpp -o C
+exit
+make sol.cpp 
+make sol.cpp 
+make sol.cpp
+exit
+ls
+diff -c output.txt answer.txt 
+exit
+g++ sample.cpp -o sample
+ls
+./sample
+sample
+sample
+exit
+g++ sample.cpp -o sample
+sample
+g++ sample.cpp -o sample
+sample
+g++ sample.cpp -o sample
+sample
+exit
+exit
+exit
+./demo
+python demo.py 
+python demo.py 
+exit
+python demo.py 
+./demo
+demo
+5
+5
+5
+5
+5
+5
+5
+5
+5
+exit

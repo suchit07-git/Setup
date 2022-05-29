@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-2284688
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-2284688"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-13c2fd8"
+      :major-mode c-mode
+      :tags nil
+      :file "B.c"
+      :pointmax 10
+      :fsize 10
+      :lastmodtime '(25140 41087 0 0)
+      :unmatched-syntax '((symbol 2 . 9) (punctuation 1 . 2))))
+  :file "!drive_c!Users!SUCHIT!Documents!CP_Practice!CF731!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
