@@ -29,6 +29,35 @@ syntax on
 autocmd BufNewFile *.cpp 0r ~/template.cpp
 autocmd BufNewFile *.cc 0r ~/template.cpp
 
+augroup JavaTemplate
+    autocmd!
+    autocmd BufNewFile *.java call LoadJavaTemplate()
+augroup END
+
+" Function to load the Java template
+function! LoadJavaTemplate()
+    " Path to the template file
+    let l:template_file = expand('~/template.java')
+
+    " Check if the template file exists
+    if filereadable(l:template_file)
+        " Read the content of the template file
+        execute '0r ' . l:template_file
+    else
+        echo "Template file not found: " . l:template_file
+        return
+    endif
+
+    " Extract the filename without the extension
+    let l:class_name = expand('%:t:r')
+
+    " Replace placeholder __CLASS_NAME__ with the actual class name
+    %s/__CLASS_NAME__/\=l:class_name/g
+
+    " Move cursor to a convenient position (line 0, column 0)
+    call cursor(0, 0)
+endfunction
+
 set softtabstop=4
 " Set shift width to 4 spaces.
 set shiftwidth=4
